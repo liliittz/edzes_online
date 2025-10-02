@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 
 <html lang="hu"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Ittzés Lili - Sportoktató</title> <style> @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-<link rel="icon" type="imagine/jpg" sizes="32x32" href="profilkep.jpg">
-<link rel="icon" type="imagine/jpg" sizes="16x16" href="profilkep.jpg">
-<link rel="apple-touch-icon" href="profilkep.jpg">
-
 body {
 margin:0; padding:0;
 font-family:'Inter', sans-serif;
@@ -650,3 +646,4 @@ scroll-behavior: smooth;
 		
 
 	</section> <!-- Kapcsolat --> <section id="contact"> <h2>Kapcsolat</h2> <a href="mailto:ittlilike@gmail.com">✉️ E-mail</a> <a href="https://www.facebook.com/profile.php?id=61575575230287" target="_blank">📘 Facebook</a> <a href="https://www.instagram.com/online_edzes_l/" target="_blank">📸 Instagram</a> </section> <footer> <p>© 2025 Ittzés Lili - Sportoktató</p> </footer> <!-- Toggle Script --> <script> document.querySelectorAll('.toggle-btn').forEach(btn => { btn.addEventListener('click', () => { const parent = btn.closest('.detail-item'); parent.classList.toggle('open'); const label = btn.querySelector('.label'); const arrow = btn.querySelector('.arrow'); if(parent.classList.contains('open')){ label.textContent = 'Bezárás'; arrow.textContent = '▲'; } else { label.textContent = 'Részletek'; arrow.textContent = '▼'; } }); }); const hamburger = document.getElementById('hamburger'); const navLinks = document.getElementById('nav-links'); hamburger.addEventListener('click', () => { navLinks.classList.toggle('active'); hamburger.classList.toggle('active'); }); </script> </body> </html>
+
