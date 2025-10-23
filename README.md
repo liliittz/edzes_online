@@ -1,2 +1,2 @@
 # edzes_online
-Online edzések kezdőknek és haladóknak
+Ez az oldal van fent először facebookon
